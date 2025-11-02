@@ -1,0 +1,9 @@
+- podman/docker provisioner for a static mosquitto broker, config in volumes, keys tbd.
+- find a way to send config updates/acl updates with only restart (sighup on config file changes?, volume updater?)
+- experiment with the idea of a mosquitto manager that listens in the swarm to get config/acl updates, verifies updates the files and sends the sighup?
+- something should publish public changes for clients too (maybe each broker should publish it's data? or just use the configs?)
+- dns mappings how to maintain for each broker?
+- client target arduino
+- client target web
+- client target python
+
